@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 -- Exercício 10:
+=======
+-- Exercício 10
+>>>>>>> 6f5d474dd9d91ed81e8c51f4cecf2e3b432c6774
 
 use dbBANCO;
 set sql_safe_updates = 0;
