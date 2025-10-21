@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-
 -- Exercício 9:
 
-=======
->>>>>>> 6f5d474dd9d91ed81e8c51f4cecf2e3b432c6774
 create database dbBANCO; -- Exercício 9
 
 use dbBANCO;
@@ -42,24 +38,16 @@ foreign key (NumeroConta) references tbconta(NumeroConta)
 create table tbtelefone_cliente(
 Telefone int primary key,
 Cpf bigint
-<<<<<<< HEAD
 foreign key (Cpf) references tbcliente(Cpf)
-=======
->>>>>>> 6f5d474dd9d91ed81e8c51f4cecf2e3b432c6774
 );
 
 
 create table tbbanco(
 Codigo int primary key,
 Nome varchar(50) not null
-<<<<<<< HEAD
 NumeroAgencia int,
 foreign key (NumeroAgencia) referencess tbagencia(NumeroAgencia)
 );
-=======
-);
-
->>>>>>> 6f5d474dd9d91ed81e8c51f4cecf2e3b432c6774
 insert into tbbanco 
 values
 (1, "Banco do Brasil"),
