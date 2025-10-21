@@ -112,7 +112,7 @@ create table tbItemVenda(
 
 NumeroVenda int,
 CodigoBarras Numeric(14),
-primary key (NumeroVenda, Numeric),
+primary key (NumeroVenda, CodigoBarras),
 
 foreign key (NumeroVenda) references tbVenda(NumeroVenda),
 
