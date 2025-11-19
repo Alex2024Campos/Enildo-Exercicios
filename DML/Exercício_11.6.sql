@@ -38,3 +38,9 @@ call InserirEndereco("Rua Pão na Chapa", "Barra Funda", "Ponta Grossa", "RS", 1
 
 select * 
 from tbEndereco;
+select * 
+from tbEstado;
+select *
+from tbCidade;
+select* 
+from tbBairro;
